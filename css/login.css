@@ -1,0 +1,45 @@
+.Welcome_header {
+  margin-top: 15%;
+  text-align: center;
+}
+.Welcome_header--title {
+  margin-bottom: 33px;
+  font-weight: bold;
+  font-size: larger;
+}
+.Welcome_header--text {
+  font-weight: 300;
+}
+.loginform {
+  padding-top: 86px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 27px;
+}
+.loginform input {
+  padding: 23px 0px;
+  border: none;
+  border-bottom: 1.5px solid rgb(0, 0, 0, 0.2);
+  font-size: 18px;
+  transition: border-color 0.3s ease-in-out;
+}
+.loginform input::placeholder {
+  font-size: 18px;
+}
+.loginform input:focus {
+  border-color: var(--royalgold);
+}
+.loginform button {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #412a85;
+  color: white;
+  font-size: 17px;
+}
+.loginform a {
+  margin-top: 20px;
+  text-align: center;
+  color: inherit;
+}

@@ -23,17 +23,20 @@
       </div>
     </div>
     <header class="Welcome_header">
-      <h1 class="Welcome_header__title">Welcome to KakaoTalk</h1>
-      <p class="Welcome_header__text">
-        If you have a Kakao Account, Log in with your email or phone number
+      <h1 class="Welcome_header--title">Welcome to KakaoTalk</h1>
+      <p class="Welcome_header--text">
+        If you have a Kakao Account, <br />
+        in with your email or phone number
       </p>
     </header>
-    <form>
+    <form class="loginform" action="friends.html" method="GET">
       <input type="text" placeholder="Email or phone number" />
-      <input type="text" placeholder="Password" />
+      <input type="password" placeholder="Password" />
       <button>Log in</button>
-      <button>Sign up</button>
+      <button class="form_button--signup">Sign up</button>
+      <a href="#">Find Kakao Account or Password</a>
     </form>
+
     <script
       src="https://kit.fontawesome.com/7e06f7a03e.js"
       crossorigin="anonymous"
