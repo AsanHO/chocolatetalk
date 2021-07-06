@@ -6,22 +6,23 @@
   width: 100%;
   background-color: #f9f9fa;
   color: #2f363e;
+  padding: 20px 60px;
+  box-sizing: border-box;
 }
 .nav_list {
   display: flex;
   justify-content: space-between;
-  padding: 10px 60px;
-  opacity: 0.3;
+  opacity: 0.5;
 }
-.nav_btn--friends:active {
-  color: black;
+.nav_btn--talk {
+  position: relative;
 }
-.nav_btn--talk:active {
-  color: black;
-}
-.nav_btn--search:active {
-  color: black;
-}
-.nav_btn--guitar:active {
-  color: black;
+.nav_btn--talkquantity {
+  padding: 5px 10px;
+  background-color: red;
+  color: seashell;
+  border-radius: 10px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
