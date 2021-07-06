@@ -1,7 +1,11 @@
 .status_bar {
+  position: fixed;
+  top: 0px;
   display: flex;
   justify-content: center;
-  margin: 3px 5px;
+  padding: 3px 5px;
+  width: 100%;
+  background-color: white;
 }
 .status_bar--colomn {
   width: 33%;
@@ -16,6 +20,7 @@
 .status_bar--colomn:nth-child(3) {
   display: flex;
   justify-content: flex-end;
+  margin-right: 9px;
 }
 .status_bar--colomn .fa-battery-quarter {
   margin: 0px 5px;
