@@ -1,9 +1,14 @@
 .screen_header {
   display: flex;
-  margin-top: 20px;
   padding: 20px 20px;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 22px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 10;
 }
 .screen_header--title {
   font-size: 30px;

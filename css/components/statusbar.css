@@ -6,6 +6,7 @@
   padding: 3px 5px;
   width: 100%;
   background-color: white;
+  z-index: 10;
 }
 .status_bar--colomn {
   width: 33%;
