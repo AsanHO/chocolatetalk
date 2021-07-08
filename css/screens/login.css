@@ -13,10 +13,13 @@
 .loginform {
   padding-top: 86px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin: 0px 27px;
 }
 .loginform input {
+  width: 100%;
   padding: 23px 0px;
   border: none;
   border-bottom: 1.5px solid rgb(0, 0, 0, 0.2);
@@ -30,6 +33,7 @@
   border-color: var(--royalgold);
 }
 .loginform button {
+  width: 40%;
   padding: 20px 0px;
   margin: 20px 0px;
   cursor: pointer;

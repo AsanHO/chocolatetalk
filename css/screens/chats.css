@@ -1,0 +1,23 @@
+.chatroom1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatroom1_NM {
+  display: flex;
+  flex-direction: column;
+}
+.chatroom1_NM--name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chatroom1_TQ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.chatroom1_TQ--Qunatity {
+  margin-top: 5px;
+}

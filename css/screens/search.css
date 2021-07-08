@@ -1,0 +1,104 @@
+
+/* section1 */
+.Find_method{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    color: var(--gray3x);
+}
+.Find_method--{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Find_method--icon{
+    padding-bottom: 20px;
+}
+/* section2 */
+.Find_recommend{
+    height: 300px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: var(--lightgray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.Find_recommend--title{
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+/* section3 */
+.Find_open{
+    margin: 20px 0px;
+    color: var(--lightgray);
+}
+.Find_open--title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-20px);
+}
+/* 룸 */
+.Find_open--room{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 10px;
+}
+/* 륨-인포 */
+.Find_open--room-infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Find_open--room-infor-title{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+.Find_open--room-infor-text{
+    margin: 5px 0px;
+    font-size: 20px;
+}
+.Find_open--room-infor-members{
+    display: flex;
+    align-items: center;
+}
+.Find_open--room-infor-members-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+}
+.Find_open--room-infor-members-quantity{
+    margin: 0px 5px;
+}
+.Find_open--room-infor-members-when{
+    color: #FF7DCD;
+}
+
+/* 룸-프로필 */
+.Find_open--room-profile{
+    
+}
+.Find_open--room-profile-pic{
+    width: 115px;
+    height: 115px;
+    position: relative;
+}
+.Find_open--room-profile-like{
+    padding: 5px 10px;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    border-radius: 30px;
+    position: absolute;
+    right: 25px;
+    transform: translateY(-30px);
+}
+.

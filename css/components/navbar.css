@@ -14,14 +14,10 @@
   justify-content: space-between;
   opacity: 0.5;
 }
-.nav_btn--talk {
+.nav_btn--chat {
   position: relative;
 }
-.nav_btn--talkquantity {
-  padding: 5px 10px;
-  background-color: red;
-  color: seashell;
-  border-radius: 10px;
+.nav_btn--chatquantity {
   position: absolute;
   left: 15px;
   bottom: 15px;
