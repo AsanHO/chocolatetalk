@@ -1,0 +1,104 @@
+.chatroom {
+  background-color: #abc1d1;
+}
+.chatroom_sec1 {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  position: fixed;
+  top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+  z-index: 10;
+}
+.chatroom_sec1-MB {
+  transform: translateX(25px);
+}
+
+.chatroom_date {
+  margin: 0px 30%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  opacity: 0.3;
+}
+.chatroom_messages {
+  height: 1000vh;
+}
+
+.chatroom_messages-profile {
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+.chatroom_messages-profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20%;
+  padding-right: 10px;
+}
+.chat_name {
+  display: block;
+  margin: 10px 0px;
+  opacity: 0.7;
+}
+/* span에 디자인이 적용이 안될때 디피를 블락으로 지정해주면 아주 좋다. */
+.mess1 {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat_chat {
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 30px;
+}
+.chat_date {
+  margin: 0px 3px;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.mechat {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 10px;
+  align-items: flex-end;
+}
+.mechat_chat {
+  background-color: #fee540;
+  padding: 15px 10px;
+  border-radius: 30px;
+}
+
+.chatroom_inputbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  width: 96%;
+  position: fixed;
+  bottom: 0px;
+}
+.chatroom_inputbar-input {
+  padding-left: 10px;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chatroom_inputbar-input-text {
+  height: 50px;
+  width: 82%;
+  border: none;
+}

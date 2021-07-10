@@ -1,5 +1,62 @@
 .More_bank {
-  width: 100;
-  background-color: #f7e352;
-  z-index: -1;
+  padding-top: 95px;
+  background-color: rgb(236, 236, 0);
+}
+.More_bank--sec {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+/* sec1 */
+.More_bank--sec1-wallet {
+  font-size: 20px;
+}
+.More_bank--sec1-shiled {
+  padding-right: 5px;
+}
+/* sec2 */
+.More_bank--sec2-but {
+  width: 100%;
+  text-align: left;
+  height: 40px;
+  border-radius: 5px;
+  border-color: white;
+  box-shadow: white;
+}
+/* sec3 */
+.More_bank--sec4-task {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.More_menu {
+  margin: -95px 0px;
+  padding-bottom: 90px;
+}
+.More_menu-but {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.More_menu-sec {
+  display: flex;
+  justify-content: space-around;
+}
+/* !!이미지를 디자인하려면 이미지의 부모에 클래스를 지정해주면 안된다. */
+/* 이미지태그 안에 직접 넣어야 한다!! */
+.More_AD {
+  position: relative;
+}
+.More_AD-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  opacity: 0.7;
 }

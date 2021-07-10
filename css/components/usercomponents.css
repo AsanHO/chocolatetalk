@@ -4,3 +4,15 @@
 .lightgray {
   color: var(lightgray);
 }
+.cover {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.border_radius_10px {
+  border-radius: 10px;
+}
+
+.KAKAO {
+  background-color: var(--KAKAO);
+}
